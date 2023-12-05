@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img2" />
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="428dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n Марина Цветаева \n\n Мне нравится, что вы больны не мной,\n
+Мне нравится, что я больна не вами,\n
+Что никогда тяжелый шар земной\n
+Не уплывет под нашими ногами.\n
+Мне нравится, что можно быть смешной —\n
+Распущенной — и не играть словами,\n
+И не краснеть удушливой волной,\n
+Слегка соприкоснувшись рукавами.\n\n
+
+Мне нравится еще, что вы при мне\n
+Спокойно обнимаете другую,\n
+Не прочите мне в адовом огне\n
+Гореть за то, что я не вас целую.\n
+Что имя нежное мое, мой нежный, не\n
+Упоминаете ни днем, ни ночью — всуе…\n
+Что никогда в церковной тишине\n
+Не пропоют над нами: аллилуйя!\n\n
+
+Спасибо вам и сердцем и рукой\n
+За то, что вы меня — не зная сами! —\n
+Так любите: за мой ночной покой,\n
+За редкость встреч закатными часами,\n
+За наши не-гулянья под луной,\n
+За солнце, не у нас над головами,-\n
+За то, что вы больны — увы! — не мной,\n
+За то, что я больна — увы! — не вами!"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
